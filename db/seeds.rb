@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+MediaType.create([ 
+	{ name: 'book' },
+	{ name: 'movie' },
+	{ name: 'game' },
+	{ name: 'other' }
+	])
