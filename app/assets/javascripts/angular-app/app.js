@@ -3,7 +3,9 @@ angular
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/', {
       controller: 'HomeCtrl'
+    }).when('/movies', {
+      controller: 'MovieCtrl'
     }).otherwise({
       redirectTo: '/'
-    })
+    });
   }]);
