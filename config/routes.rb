@@ -1,7 +1,16 @@
 LibraryApp::Application.routes.draw do
+
+  root "application#index"
+
+  # namespace :movies, :path => '/movies' do
+  #   root to: 'movies#index'
+  #   get '/:id', to: 'movies#show'
+  # end
+
+  get '/movies', to: 'movies#index'
   namespace :api, defaults: {format: :json} do
     namespace :v1 do
-      resources :movies
+      resources :movies, :books, :games
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.

@@ -49,3 +49,8 @@ end
 
 # RSpec
 gem "rspec-rails", "2.14.0"
+
+# Bower
+gem 'bower-rails'
+
+

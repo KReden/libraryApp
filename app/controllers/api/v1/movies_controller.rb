@@ -35,7 +35,7 @@ module Api
 
       private
       def movie_params
-        params.require(:movie).permit(:name, :director)
+        params.require(:movie).permit(:name, :studio)
       end
 
     end
