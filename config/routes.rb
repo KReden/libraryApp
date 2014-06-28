@@ -7,7 +7,7 @@ LibraryApp::Application.routes.draw do
   #   get '/:id', to: 'movies#show'
   # end
 
-  resources :movies
+  # resources :movies
     # get '/movies', to: 'movies#index'
 
   namespace :api, defaults: {format: :json} do

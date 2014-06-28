@@ -5,6 +5,8 @@ angular
       controller: 'HomeCtrl'
     }).when('/movies', {
       controller: 'MovieCtrl'
+    }).when('/movies/:id', {
+      controller: 'MovieCtrl'
     }).otherwise({
       redirectTo: '/'
     });

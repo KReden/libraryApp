@@ -4,14 +4,14 @@
 
     def index
       # respond_with(Movie.all.order("name ASC"))
-      respond_to do |format|
-        format.html
-      end
+      # respond_to do |format|
+      #   format.html
+      # end
     end
 
-    # def show
-    #   respond_with(Movie.find(params[:id]))
-    # end
+    def show
+      # respond_with(Movie.find(params[:id]))
+    end
 
     # def create
     #   @movie = Movie.new(movie_params)
