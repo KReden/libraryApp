@@ -1,3 +1,3 @@
 class Movie < ActiveRecord::Base
-	belongs_to :media_type
+	has_one :media_type
 end

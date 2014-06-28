@@ -7,8 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 MediaType.create([ 
-	{ name: 'book' },
-	{ name: 'movie' },
-	{ name: 'game' },
-	{ name: 'other' }
+		{ name: 'book' },
+		{ name: 'movie' },
+		{ name: 'game' },
+		{ name: 'other' }
 	])
+
+
