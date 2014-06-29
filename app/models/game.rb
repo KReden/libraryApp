@@ -1,3 +1,3 @@
 class Game < ActiveRecord::Base
-	has_one :media_type
+	belongs_to :media_type
 end

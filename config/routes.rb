@@ -12,7 +12,7 @@ LibraryApp::Application.routes.draw do
 
   namespace :api, defaults: {format: :json} do
     namespace :v1 do
-      resources :movies, :books, :games
+      resources :movies, :books, :games, :items
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.
